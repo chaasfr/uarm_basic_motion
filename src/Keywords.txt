@@ -1,0 +1,45 @@
+#######################################
+# Syntax Coloring Map UF_uArm
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+robotarm	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+init		KEYWORD2
+setPosition	KEYWORD2
+readAngle	KEYWORD2
+
+detachServo	KEYWORD2
+sendData	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+ARM_A                   LITERAL1
+ARM_B                   LITERAL1
+ARM_2AB                 LITERAL1
+ARM_A2                  LITERAL1
+ARM_B2                  LITERAL1
+ARM_A2B2                LITERAL1
+ARM_STRETCH_MIN         LITERAL1
+ARM_STRETCH_MAX         LITERAL1
+ARM_HEIGHT_MIN          LITERAL1
+ARM_HEIGHT_MAX          LITERAL1
+ARM_ROTATION_MIN        LITERAL1
+ARM_ROTATION_MAX        LITERAL1
+FIXED_OFFSET_L          LITERAL1
+FIXED_OFFSET_R          LITERAL1
+D150A_SERVO_MIN_PUL     LITERAL1
+D150A_SERVO_MAX_PUL     LITERAL1
+INIT_POS_L              LITERAL1
+INIT_POS_R              LITERAL1
+SERVO_ROT               LITERAL1
+SERVO_R                 LITERAL1
+SERVO_L                 LITERAL1

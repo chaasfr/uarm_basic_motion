@@ -1,0 +1,14 @@
+
+
+
+
+
+.build/uno/src/MotionDemo.cpp : src/MotionDemo.ino
+	@mkdir -p .build/uno/src
+	@echo [93msrc/MotionDemo.ino[0m
+	@/usr/local/bin/ino preproc  -o $@ $^
+
+
+all : .build/uno/src/MotionDemo.cpp
+	@true
+
